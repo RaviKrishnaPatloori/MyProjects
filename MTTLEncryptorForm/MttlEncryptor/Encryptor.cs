@@ -9,7 +9,7 @@ namespace MttlEncryptor
 {
     public class Encryptor
     {
-		//Encrypts the password
+	//Encrypts the password
         public static string passwordEncrypt(string inText, string key)
         {
             byte[] bytesBuff = Encoding.Unicode.GetBytes(inText);
@@ -19,6 +19,7 @@ namespace MttlEncryptor
                 Rfc2898DeriveBytes crypto = new Rfc2898DeriveBytes(key, new byte[] { 0x49, 0x76, 0x61, 0x6e, 0x20, 0x4d, 0x65, 0x64, 0x76, 0x65, 0x64, 0x65, 0x76 });
                 aes.Key = crypto.GetBytes(32);
                 aes.IV = crypto.GetBytes(16);
+		//Comment 1
                 using (MemoryStream mStream = new MemoryStream())
                 {
                     using (CryptoStream cStream = new CryptoStream(mStream, aes.CreateEncryptor(), CryptoStreamMode.Write))
@@ -52,6 +53,7 @@ namespace MttlEncryptor
                     cryptTxt = Encoding.Unicode.GetString(mStream.ToArray());
                 }
             }
+		//comment 2
             return cryptTxt;
         }
 
