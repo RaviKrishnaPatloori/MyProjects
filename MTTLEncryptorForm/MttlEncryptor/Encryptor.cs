@@ -9,14 +9,13 @@ namespace MttlEncryptor
 {
     public class Encryptor
     {
-		//Encrypts the password
-        public static string passwordEncrypt(string inText, string key)
-			
+	//Encrypts the password
+        public static string passwordEncrypt(string inText, string key)			
         {			
             byte[] bytesBuff = Encoding.Unicode.GetBytes(inText);
             using (Aes aes = Aes.Create())
             {
-                //create crypto object
+                //create crypto object1
                 Rfc2898DeriveBytes crypto = new Rfc2898DeriveBytes(key, new byte[] { 0x49, 0x76, 0x61, 0x6e, 0x20, 0x4d, 0x65, 0x64, 0x76, 0x65, 0x64, 0x65, 0x76 });
                 aes.Key = crypto.GetBytes(32);
                 aes.IV = crypto.GetBytes(16);
