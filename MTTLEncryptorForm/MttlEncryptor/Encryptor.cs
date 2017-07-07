@@ -9,9 +9,11 @@ namespace MttlEncryptor
 {
     public class Encryptor
     {
-	//Encrypts the password
+		//Encrypts the password
         public static string passwordEncrypt(string inText, string key)
         {
+			//new comment1
+			//new comment 2
             byte[] bytesBuff = Encoding.Unicode.GetBytes(inText);
             using (Aes aes = Aes.Create())
             {
