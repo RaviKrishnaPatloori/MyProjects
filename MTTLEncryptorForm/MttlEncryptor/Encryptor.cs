@@ -26,8 +26,7 @@ namespace MttlEncryptor
                     {
                         cStream.Write(bytesBuff, 0, bytesBuff.Length);
                         cStream.Close();
-						//Comment1
-						//Comment2
+						//Comment1						
                     }					
                     inText = Convert.ToBase64String(mStream.ToArray());
                 }
