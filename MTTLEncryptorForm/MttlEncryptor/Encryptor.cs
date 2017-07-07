@@ -27,6 +27,7 @@ namespace MttlEncryptor
                         cStream.Write(bytesBuff, 0, bytesBuff.Length);
                         cStream.Close();
                     }
+					//comment A
                     inText = Convert.ToBase64String(mStream.ToArray());
                 }
             }
@@ -53,8 +54,9 @@ namespace MttlEncryptor
                     cryptTxt = Encoding.Unicode.GetString(mStream.ToArray());
                 }
             }
-		//comment 2
-            return cryptTxt;
+
+		//comment 2          
+            return cryptTxt;//Comment B
         }
 
 

@@ -1,0 +1,9 @@
+diff a/MTTLEncryptorForm/MttlEncryptor/Encryptor.cs b/MTTLEncryptorForm/MttlEncryptor/Encryptor.cs	(rejected hunks)
+@@ -9,7 +9,6 @@
+ {
+     public class Encryptor
+     {
+-		//Encrypts the password
+ 	//Encrypts the password
+         public static string passwordEncrypt(string inText, string key)
+         {
