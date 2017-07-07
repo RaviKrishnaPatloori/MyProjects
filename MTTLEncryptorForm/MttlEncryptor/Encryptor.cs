@@ -31,6 +31,8 @@ namespace MttlEncryptor
                 }
             }
             return inText;
+		//comment3
+		//comment4
         }
         //Decrypting a string
         public static string passwordDecrypt(string cryptTxt, string key)
