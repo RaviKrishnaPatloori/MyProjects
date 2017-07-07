@@ -25,8 +25,7 @@ namespace MttlEncryptor
                     using (CryptoStream cStream = new CryptoStream(mStream, aes.CreateEncryptor(), CryptoStreamMode.Write))
                     {
                         cStream.Write(bytesBuff, 0, bytesBuff.Length);
-                        cStream.Close();
-						//Comment1						
+                        cStream.Close();						
                     }					
                     inText = Convert.ToBase64String(mStream.ToArray());
                 }
