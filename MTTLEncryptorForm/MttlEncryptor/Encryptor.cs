@@ -54,7 +54,7 @@ namespace MttlEncryptor
                     cryptTxt = Encoding.Unicode.GetString(mStream.ToArray());
                 }
             }		         
-            return cryptTxt;//Comment B
+            return cryptTxt;
         }
 
 
