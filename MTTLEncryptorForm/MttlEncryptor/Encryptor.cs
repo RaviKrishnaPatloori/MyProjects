@@ -47,6 +47,7 @@ namespace MttlEncryptor
                         cStream.Write(bytesBuff, 0, bytesBuff.Length);
                         cStream.Close();
                     }
+                    //Get text
                     cryptTxt = Encoding.Unicode.GetString(mStream.ToArray());
                 }
             }
