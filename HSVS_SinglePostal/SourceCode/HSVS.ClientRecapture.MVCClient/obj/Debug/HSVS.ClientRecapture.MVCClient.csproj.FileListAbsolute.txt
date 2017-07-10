@@ -1,0 +1,142 @@
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\ApplicationInsights.config
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\csc.exe
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\csc.exe.config
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\csc.rsp
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\csi.exe
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\csi.rsp
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\System.AppContext.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\System.Collections.Immutable.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\System.IO.FileSystem.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\System.Reflection.Metadata.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\vbc.exe
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\vbc.exe.config
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\vbc.rsp
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\VBCSCompiler.exe
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\roslyn\VBCSCompiler.exe.config
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\HSVS.ClientRecapture.MVCClient.dll.config
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\HSVS.ClientRecapture.MVCClient.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\HSVS.ClientRecapture.MVCClient.pdb
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Antlr3.Runtime.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\HSVS.ClientRecapture.Constants.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\HSVS.ClientRecapture.Data.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.Agent.Intercept.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.DependencyCollector.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.Web.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.WindowsServer.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Microsoft.ApplicationInsights.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Microsoft.Web.Infrastructure.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Newtonsoft.Json.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\System.Web.Helpers.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\System.Web.Mvc.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\System.Web.Optimization.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\System.Web.Razor.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\System.Web.WebPages.Deployment.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\System.Web.WebPages.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\System.Web.WebPages.Razor.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\WebGrease.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\HSVS.ClientRecapture.Constants.pdb
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\HSVS.ClientRecapture.Data.pdb
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Newtonsoft.Json.xml
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\System.Web.Helpers.xml
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\System.Web.Mvc.xml
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\System.Web.Optimization.xml
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\System.Web.Razor.xml
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\System.Web.WebPages.xml
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\System.Web.WebPages.Deployment.xml
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\System.Web.WebPages.Razor.xml
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Antlr3.Runtime.pdb
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Microsoft.ApplicationInsights.xml
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.DependencyCollector.xml
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.WindowsServer.xml
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.Web.xml
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\obj\Debug\HSVS.ClientRecapture.MVCClient.csprojResolveAssemblyReference.cache
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\obj\Debug\HSVS.ClientRecapture.MVCClient.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.MVCClient\obj\Debug\HSVS.ClientRecapture.MVCClient.pdb
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\ApplicationInsights.config
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\csc.exe
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\csc.exe.config
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\csc.rsp
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\csi.exe
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\csi.rsp
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\System.AppContext.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\System.Collections.Immutable.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\System.IO.FileSystem.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\System.Reflection.Metadata.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\vbc.exe
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\vbc.exe.config
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\vbc.rsp
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\VBCSCompiler.exe
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\roslyn\VBCSCompiler.exe.config
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\HSVS.ClientRecapture.MVCClient.dll.config
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\HSVS.ClientRecapture.MVCClient.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\HSVS.ClientRecapture.MVCClient.pdb
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Antlr3.Runtime.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\HSVS.ClientRecapture.Constants.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\HSVS.ClientRecapture.Data.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.Agent.Intercept.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.DependencyCollector.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.Web.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.WindowsServer.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Microsoft.ApplicationInsights.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Microsoft.Web.Infrastructure.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Newtonsoft.Json.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\System.Web.Helpers.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\System.Web.Mvc.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\System.Web.Optimization.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\System.Web.Razor.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\System.Web.WebPages.Deployment.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\System.Web.WebPages.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\System.Web.WebPages.Razor.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\WebGrease.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\HSVS.ClientRecapture.Constants.pdb
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\HSVS.ClientRecapture.Data.pdb
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Newtonsoft.Json.xml
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\System.Web.Helpers.xml
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\System.Web.Mvc.xml
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\System.Web.Optimization.xml
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\System.Web.Razor.xml
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\System.Web.WebPages.xml
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\System.Web.WebPages.Deployment.xml
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\System.Web.WebPages.Razor.xml
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Antlr3.Runtime.pdb
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Microsoft.ApplicationInsights.xml
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.DependencyCollector.xml
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.WindowsServer.xml
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\bin\Microsoft.AI.Web.xml
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\obj\Debug\HSVS.ClientRecapture.MVCClient.csprojResolveAssemblyReference.cache
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\obj\Debug\HSVS.ClientRecapture.MVCClient.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.MVCClient\obj\Debug\HSVS.ClientRecapture.MVCClient.pdb

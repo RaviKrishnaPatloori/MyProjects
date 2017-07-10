@@ -1,0 +1,9 @@
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.Constants\bin\Debug\HSVS.ClientRecapture.Constants.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.Constants\bin\Debug\HSVS.ClientRecapture.Constants.pdb
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.Constants\obj\Debug\HSVS.ClientRecapture.Constants.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.Constants\obj\Debug\HSVS.ClientRecapture.Constants.pdb
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.Constants\bin\Debug\HSVS.ClientRecapture.Constants.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.Constants\bin\Debug\HSVS.ClientRecapture.Constants.pdb
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.Constants\obj\Debug\HSVS.ClientRecapture.Constants.csprojResolveAssemblyReference.cache
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.Constants\obj\Debug\HSVS.ClientRecapture.Constants.dll
+E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.Constants\obj\Debug\HSVS.ClientRecapture.Constants.pdb

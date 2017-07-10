@@ -1,0 +1,136 @@
+/* Max width  1024px */
+
+@media only screen and (max-width : 1024px) {
+	
+	.banner-wrap {
+		margin: 0;
+	}
+
+	.left-nav {
+	    width: 3rem;
+	    background: none;
+	    position: fixed;
+	}
+
+	.left-nav .list-unstyled {
+	    padding: 0 14px 14px 14px;
+	}
+
+	.left-nav .list-unstyled li a p.text {
+		display: none;
+	}
+
+	.page {
+	    margin: 95px 0 30px;
+	    margin-left: calc(.2rem + 40px);
+	}
+
+	.banner-wrap .device {
+		display: none;
+	}
+
+	.tab-horizontal-content #postcard1, 
+	.tab-horizontal-content #postcard2 {
+	    padding: 50px 20px;
+	}
+
+	.tab-vertical-content {
+		margin-left: calc(6.7rem + 0px);
+	}
+
+	.flip-card-bg {
+		background-size: cover;
+	}
+
+	.flip-card-bg .hospital-details {
+		bottom: 80px;
+	}
+
+	.help-support .adrs-box {
+		padding: 100px 25px 100px 35px;
+	}
+
+	.report-chart {
+		padding: 0 5px;	
+	}
+
+	.report-chart .date-field .text-field {
+		width: 140px;
+	}
+
+	#overview .header .nav {
+		padding-right: 15px;
+	}
+
+	.report-chart .col-7 {
+		width: 60%;
+	}
+
+	.report-chart .col-5 {
+		width: 40%;
+	}
+
+	.details-report-table {
+		table-layout: fixed;
+	}
+
+	
+}
+
+
+/* Max width  768px */
+@media only screen and (max-width : 768px) {
+
+	.postcard .right .spl-reminder {
+		line-height: normal;
+	}
+
+	.postcard .right .spl-reminder .icon-reminder {
+		float: left;
+	}
+
+	.postcard .right .spl-reminder .blacktxt {
+		display: block;
+	}
+
+	.postcard .right .courier-type {
+		margin: 35px 0;
+	}
+
+	#postcardsettings .pc-email-modal label {
+		width: 70%;
+	}
+
+	#postcardsettings .pc-email-modal label,
+	#postcardsettings .pc-email-modal .btn-blue-border {
+		display: inline-block;
+	}
+
+	#postcardsettings .modal-content {
+		margin: 12% auto;
+		width: 60%;
+	}
+
+	.help-support .adrs-box {
+		padding: 65px 25px 65px 35px;
+	}
+
+	.report-chart .date-field .text-field {
+		width: 90px;
+	}
+
+	.report-chart .customer-details {
+		margin: 15px 10px 0px 25px;
+	}
+
+	.report-chart .col-7 ul li.pull-left {
+		float: none;
+	}
+
+	.report-chart .customer-details li {
+		float: left;
+		width: 50%;
+	}
+
+
+}

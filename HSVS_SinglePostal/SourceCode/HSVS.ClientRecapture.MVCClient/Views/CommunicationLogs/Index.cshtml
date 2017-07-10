@@ -1,0 +1,192 @@
+﻿@model HSVS.SinglePostal.WebApp.ViewModels.CommunicationLogsViewModel
+@{
+    ViewBag.Title = "CommunicationLogs";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="page-content">
+
+    <!-- Breadcrumb -->
+    <ul class="list-inline breadcrumb">
+        <li>
+            <div class="heading">
+                <span class="icon-recapture"></span>
+                <b>CLIENT</b> <span class="letter-space">RECAPTURE</span>
+            </div>
+        </li>
+        <li class="text-red"><span class="icon-arrow-right"></span></li>
+        <li>Communication Logs</li>
+    </ul>
+    <!-- TABS HORIZANTAL -->
+    <div class="tabs-horizontal">
+        <ul class="tab-horizontal-links">
+            <li class="active">
+                <a href="#combined" data-target="combined">COMBINED</a>
+            </li>
+            <li>
+                <a href="#emails" data-target="emails">EMAILS</a>
+            </li>
+            <li>
+                <a href="#postcards" data-target="postcards">POSTCARDS</a>
+            </li>
+        </ul>
+        <div class="tab-horizontal-content padding-muted">
+            <div id="combined" class="horizontal-tab tab active" data-tab="combined">
+                <div class="field-sec">
+                    <ul class="list-inline margin-muted date-field">
+                        <li class="margin-right-20">
+                            <label>From</label>
+                            <input type="text" name="calendar" class="text-field date-picker">
+                            <span class="field-icon-pos icon-calendar"></span>
+                        </li>
+                        <li>
+                            <label>To</label>
+                            <input type="text" name="calendar" class="text-field date-picker">
+                            <span class="field-icon-pos icon-calendar"></span>
+                        </li>
+                        <li class="search-client">
+                            <label>Search A Client</label>
+                            <input type="text" name="calendar" class="text-field" placeholder="Enter Client ID / First, Last Names / Pet Name">
+                        </li>
+                        <li class="icons">
+                            <a href="javascript:void()">
+                                <span class="icon-download"></span>
+                            </a>
+                            <a href="javascript:void()">
+                                <span class="icon-print"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <table class="table table-bordered table-odd-even details-report-table">
+                            <thead>
+                                <tr>
+                                    <th rowspan="2">Client ID</th>
+                                    <th rowspan="2">Last Name</th>
+                                    <th rowspan="2">First Name</th>
+                                    <th rowspan="2">Patient Name</th>
+                                    <th colspan="5" class="table-sub-head1">Communication Dates</th>
+                                </tr>
+                                <tr class="table-sub-head">
+                                    <th>Postcard 1</th>
+                                    <th>Postcard 2</th>
+                                    <th>Email 1</th>
+                                    <th>Email 2</th>
+                                    <th>Postcard 3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>#124478</td>
+                                    <td>Washington</td>
+                                    <td>Christina</td>
+                                    <td>Skye</td>
+                                    <td>07/18/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td>07/02/2017</td>
+                                </tr>
+                                <tr>
+                                    <td>#124478</td>
+                                    <td>Washington</td>
+                                    <td>Christina</td>
+                                    <td>Skye</td>
+                                    <td>07/18/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td>07/02/2017</td>
+                                </tr>
+                                <tr>
+                                    <td>#124478</td>
+                                    <td>Washington</td>
+                                    <td>Christina</td>
+                                    <td>Skye</td>
+                                    <td>07/18/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>#124478</td>
+                                    <td>Washington</td>
+                                    <td>Christina</td>
+                                    <td>Skye</td>
+                                    <td>07/18/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>#124478</td>
+                                    <td>Washington</td>
+                                    <td>Christina</td>
+                                    <td>Skye</td>
+                                    <td>07/18/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>#124478</td>
+                                    <td>Washington</td>
+                                    <td>Christina</td>
+                                    <td>Skye</td>
+                                    <td>07/18/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>#124478</td>
+                                    <td>Washington</td>
+                                    <td>Christina</td>
+                                    <td>Skye</td>
+                                    <td>07/18/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div id="emails" class="horizontal-tab tab" data-tab="emails">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>EMAILS</h1>
+                    </div>
+                </div>
+            </div>
+            <div id="postcards" class="horizontal-tab tab" data-tab="postcards">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>POSTCARDS</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button section -->
+    <div class="btn-section clearfix">
+        <a href="javascript:void()" class="btn btn-blue-link pull-left">
+            <span class="icon-download"></span>
+            Download Report
+        </a>
+        <a href="javascript:void()" class="btn btn-blue-link pull-right">
+            <span class="icon-print"></span>
+            Print Report
+        </a>
+    </div>
+
+</div>
+

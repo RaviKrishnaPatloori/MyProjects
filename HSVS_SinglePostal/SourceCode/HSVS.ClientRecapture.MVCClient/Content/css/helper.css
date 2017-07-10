@@ -1,0 +1,1188 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+html,
+body {
+    height: #eee;
+}
+
+ body {
+    background: #eee;
+    min-height: 100vh;
+    height: 100%;
+    font-family: 'proxima_nova_rgregular', Arial;
+}
+
+a {
+	text-decoration: none;
+	color: #2D6FB7;
+}
+
+/*** Font Face **/
+
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/proximanova-regular-webfont.woff2') format('woff2'),
+         url('../fonts/proximanova-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_ththin';
+    src: url('../fonts/proxima_nova_thin-webfont.woff2') format('woff2'),
+         url('../fonts/proxima_nova_thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_ltsemibold';
+    src: url('../fonts/proxima_nova_semibold-webfont.woff2') format('woff2'),
+         url('../fonts/proxima_nova_semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/** List **/
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-unstyled li {
+	display: inherit;
+}
+
+.list-inline {
+	padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.list-inline li {
+	display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+
+/** Float **/
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+/** Alignments **/
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+
+/** Row Padding **/
+
+.row-padding-5 {
+	padding: 5px 0;
+}
+
+.row-padding-10 {
+	padding: 10px 0;
+}
+
+.row-padding-15 {
+	padding: 15px 0;
+}
+
+.row-padding-20 {
+	padding: 20px 0;
+}
+
+
+/** Form Group **/
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+
+/** Bg Color **/
+
+.bg-blue {
+	background-color: #2D6FB7;
+}
+
+.bg-grey {
+	background-color: #99989A;
+}
+
+
+
+/** Text Color **/
+
+.text-blue.text-blue.text-blue  {
+	color: #2D6FB7;
+}
+
+.text-blue-dark {
+    color: #4e69a2;
+}
+
+.text-grey {
+	color: #99989A;
+}
+
+.text-grey-light {
+    color: #b3b3b3;
+}
+
+.text-red {
+	color: 	#EB1E25;
+}
+
+.text-green.text-green.text-green.text-green {
+	color: 	#7ed095;
+}
+
+.text-pink {
+    color: #F1677C;
+}
+
+.text-disabled {
+    color: #CCCCCC;
+}
+
+
+/** Letter Spacing **/
+
+.letter-space {
+	letter-spacing: 5px;
+}
+
+/** Muted **/
+
+.margin-muted {
+	margin: 0;
+}
+
+.padding-muted.padding-muted {
+	padding: 0;
+}
+
+
+/** Margin **/
+
+.margin-right-20 {
+    margin-right: 20px;
+}
+
+.margin-right-40 {
+    margin-right: 40px;
+}
+
+.margin-right-50 {
+    margin-right: 50px;
+}
+
+.margin-right-100 {
+    margin-right: 100px;
+}
+
+/** Button **/
+
+.btn {
+	height: 40px;	
+	border: 1px solid #999999;	
+	font-family: 'proxima_nova_ltsemibold';
+    color: #999999;	
+	font-size: 16px;	
+	letter-spacing: 3px;	
+	line-height: 40px;	
+	text-align: center;
+	padding: 0 15px;
+	display: inline-block;
+    background: transparent;
+    outline: none;
+    transition: all 0.3s ease-out;
+}
+
+.btn-blue {
+	background-color: #2D6FB7;
+	border-color: #2D6FB7;
+	color: #fff;
+}
+
+.btn-blue-border {
+    color: #2D6FB7;
+    border: 2px solid #2D6FB7;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 2px 20px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: 'proxima_nova_rgregular';
+}
+
+.btn-blue .icon {
+	font-size: 24px;
+	line-height: 34px;
+	position: relative;
+	top: 3px;
+}
+
+.btn-green {
+	background-color: #4BC86E;
+	border-color: #4BC86E;
+	color: #fff;
+}
+
+.btn-blue-link {
+	color: #2D6FB7;
+	font-size: 18px;
+	letter-spacing: 0;
+	border: 0;
+}
+
+.more-icon {
+    background: #efefef;
+    border: 1px solid #2D6FB7;
+    display: inline-block;
+    height: 12px;
+    width: 10px;
+    text-align: center;
+    border-radius: 50%;
+    padding-left: 2px;
+}
+
+.more-icon .dot {
+    height: 2px;
+    width: 2px;
+    background: #2D6FB7;
+    display: inline-block;
+    margin: 5px 0.5px;
+    float: left;
+}
+
+/*** Textfield ***/ 
+
+.text-field {
+	border: 1px solid #dedede;
+	padding: 7px 8px;
+	color: #929292;
+	outline: none;
+	font-size: 13px;
+}
+
+.date-field .icon-calendar {
+    color: #898989;
+    position: absolute;
+    right: 15px;
+    bottom: 7px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+
+
+
+/*** Datefield icon **/
+
+.date-field label {
+    display: block;
+    color: #898989;
+    font-size: 14px;
+    padding: 6px 0;
+}
+
+
+/*** Tooltip ***/
+
+.tooltip {
+	position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 29px;
+    margin-left: -84px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 0px #d4d4d4;
+    font-size: 12px;
+    border: 1px solid #d3d3d3;
+    font-family: 'proxima_nova_rgregular';
+    color: #666666;
+    background: #ffffff;
+    padding: 8px 15px;
+    min-width: 200px;
+    z-index: 100;
+}
+
+.tooltip:after,
+.tooltip:before  {
+	right: 0;
+    left: 85px;
+	top: 0;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.tooltip:after {
+	border-bottom-color: #fff;
+    border-width: 7px;
+    margin-top: -14px;
+}
+
+.tooltip:before {
+	border-bottom-color: #d3d3d3;
+    border-width: 7px;
+    margin-top: -15px;
+}
+
+
+/*----- Tabs horizontal -----*/
+
+.tabs-horizontal {
+    width:100%;
+    display:inline-block;
+    border-bottom: 1px solid #dedede;
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-horizontal-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+
+    .tab-horizontal-links {
+    	background: #fafafa;
+     	border-top: 1px solid #dedede;
+    	border-bottom: 1px solid #dedede;
+    	margin: 0;
+    	padding: 0;
+        margin-top: -1px;
+    }
+ 
+    .tab-horizontal-links li {
+        float:left;
+        list-style:none;
+    }
+ 
+        .tab-horizontal-links a {
+            padding: 20px 0 18px 0;
+            width: 185px;
+            display:inline-block;
+            background:#fafafa;
+            border-right: 1px solid #dedede;
+            font-size:13px;
+            transition:all linear 0.15s;
+            color: #2D6FB7;
+            text-align: center;
+            font-family: 'proxima_nova_ltsemibold';
+            letter-spacing: .5px;
+        }
+
+        .tab-horizontal-links a .tab-icon {
+		    display: block;
+		    margin: 0 auto 15px;
+		    text-align: center;
+		    font-size: 32px;
+		}
+ 
+        .tab-horizontal-links a:hover {
+            color: #f2677d;
+            background: #fff;
+        }
+
+        .tab-horizontal-links a:hover svg {
+        	fill: #f2677d;
+        }
+
+        .tab-horizontal-links a svg {
+        	height: 40px;
+        	width: 40px;
+        	fill: #2D6FB7;
+        	display: block;
+        	margin: 0 auto;
+        }
+ 
+    .tab-horizontal-links li.active a {
+        color: #f1677c;
+        background: #fff;
+        /*border-bottom: 2px solid #f2677d;*/
+        -webkit-box-shadow: inset 0px -73px 0px -71px #f1677c;
+		-moz-box-shadow: inset 0px -73px 0px -71px #f1677c;
+		box-shadow: inset 0px -73px 0px -71px #f1677c;
+		
+    }
+
+    /*.tab-horizontal-links li.active:after {
+    	height: 3px;
+	    background: #eb1e25;
+	    opacity: 1;
+    }
+
+    .tab-horizontal-links li.active:after {
+	    content: '';
+	    position: absolute;
+	    display: block;
+	    left: 0;
+	    bottom: 0;
+	    right: 0;
+	    height: 0;
+	    opacity: 0;
+	    transition: all 0.25s ease-in-out;
+	}*/
+
+    .tab-horizontal-links li.active a svg, 
+    .tab-horizontal-links li.active a:hover svg {
+        fill: #f2677d;
+    }
+ 
+    /*----- Content of Tabs -----*/
+    .tab-horizontal-content {
+        background:#fff;
+    }
+
+    .tab-horizontal-content	h1 {
+		font-family: 'proxima_nova_ltsemibold';
+		color: #B2B2B2;
+		font-size: 20px;
+		font-weight: normal;
+		margin: 0 0 30px 0;
+	}
+ 
+    .tab-horizontal-content .tab {
+        display:none;
+    }
+ 
+    .tab-horizontal-content .tab.active {
+        display:block;
+    }
+
+
+/*----- Tabs Vertical -----*/
+
+.tabs-vertical {
+    width:100%;
+    display:inline-block;
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-vertical-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+
+    .tab-vertical-links,
+    .preview-actions {
+        width: 80px;
+        margin: 0;
+        padding: 0;
+    	background: #fff;
+    	border: 1px solid #dedede;
+    	border-bottom: 0;
+		box-shadow: 10px 10px 0px 0px #eaf2f7;
+    }
+
+    .tabs-vertical .preview-actions {
+        border-top: none;
+    }
+
+    .tabs-vertical .left-toolbar {
+       float: left;
+
+    }
+    
+     .tab-vertical-links .left-toolbar ul {
+        display: block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+     }
+    .tab-vertical-links li,
+    .preview-actions li {
+        list-style:none;
+        display: table;
+    }
+ 
+        .tab-vertical-links a,
+        .preview-actions li a {
+            height: 80px;
+            width: 80px;
+            display:table-cell;
+            transition:all linear 0.15s;
+            color: #999;
+            border-bottom: 1px solid #dedede;
+            text-align: center;
+            vertical-align: middle;
+            position: relative;
+        }
+
+        .tab-vertical-links .icon,
+        .preview-actions li .icon {
+		    font-size: 28px;
+		    height: 80px;
+		    width: 80px;
+		    display: block;
+		    line-height: 80px;
+		    text-align: center;
+		}
+
+        .tab-vertical-links a:hover,
+        .preview-actions a:hover {
+            background: rgba(233, 241, 246, 0.5);
+    		color: #2d6fb7;
+        }
+
+        .tab-vertical-links a:hover svg,
+         .preview-actions a:hover svg {
+        	fill: #f2677d;
+        }
+
+        .tab-vertical-links a svg {
+        	height: 40px;
+        	width: 40px;
+        	fill: #2D6FB7;
+        	display: block;
+        	margin: 0 auto;
+        }
+
+        a.disabled {
+        	pointer-events: none;
+   			opacity: .3;
+        }
+ 
+    .tab-vertical-links li.active a {
+	    color: #f1677c;
+	}
+
+    .tab-vertical-links li.active a svg, 
+    .tab-vertical-links li.active a:hover svg {
+        fill: #f2677d;
+    }
+
+    .tab-vertical-links .view,
+    .tab-vertical-links .edit,
+    .tab-vertical-links .flip {
+    	display: none;
+    }
+
+    .tab-vertical-links a:hover .view {
+    	display: block;
+    }
+
+    .tab-vertical-links a:hover .edit {
+    	display: block;
+    }
+
+    .tab-vertical-links a:hover .flip {
+    	display: block;
+    }
+
+    /*** Tooltip ***/
+    .tabs-vertical li .tool-tip {
+	    position: absolute;
+	    left: 67px;
+	    width: 130px;
+	    top: 15px;
+	    background: #fff;
+	    z-index: 20;
+	    border: solid 1px #ddd;
+	    padding: 10px;
+	    border-radius: 4px;
+	    font-size: 12px;
+	    color: #888;
+	    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+	    opacity: 0;
+	    z-index: -100;
+	    transition: all 0.2s ease-in-out;
+	}
+
+	.tabs-vertical li a:hover .tool-tip {
+	    display: block;
+	    opacity: 1;
+	    z-index: +1;
+	    left: 75px;
+	}
+
+	.tabs-vertical li .tool-tip .arrow_box {
+	    position: relative;
+	    display: block;
+	}
+
+	.tabs-vertical li .tool-tip .arrow_box:after, .arrow_box:before {
+	    right: 108%;
+	    top: 50%;
+	    border: solid transparent;
+	    content: " ";
+	    height: 0;
+	    width: 0;
+	    position: absolute;
+	    pointer-events: none;
+	}
+
+	.tabs-vertical li .tool-tip .arrow_box:after {
+	    border-color: rgba(255, 255, 255, 0);
+	    border-right-color: #fff;
+	    border-width: 10px;
+	    margin-top: -10px;
+	}
+	.tabs-vertical li .tool-tip .arrow_box:before {
+	    border-color: rgba(221, 221, 221, 0);
+	    border-right-color: #ddd;
+	    border-width: 11px;
+	    margin-top: -11px;
+	}
+
+ 
+    /*----- Content of Tabs -----*/
+    .tab-vertical-content {
+        padding:0px;
+        background:#fff;
+	    box-sizing: border-box;
+	    margin-left: calc(13.2rem + 40px);
+	    -webkit-box-shadow: 10px 10px 0px 0px #eaf2f7;
+		-moz-box-shadow: 10px 10px 0px 0px #eaf2f7;
+		box-shadow: 10px 10px 0px 0px #eaf2f7;
+		border: 1px solid #dedede;
+		box-sizing: border-box;
+    	margin-left: calc(7.5rem + 0px);
+    }
+
+    .tab-vertical-content	h1 {
+		font-family: 'proxima_nova_ltsemibold';
+		color: #B2B2B2;
+		font-size: 20px;
+		font-weight: normal;
+		margin: 0 0 30px 0;
+	}
+ 
+    .tab-vertical-content .tab {
+        display:none;
+    }
+ 
+    .tab-vertical-content .tab.active {
+        display:block;
+    }
+
+
+/*** Social Sprite ***/
+
+
+.sprite-social-icons {
+    background: url(../images/social-icons.jpg) no-repeat;
+}
+
+.fb {
+    background-position: -2px -2px;
+    width: 28px;
+	height: 28px;
+    display: block;
+}
+
+.fb:hover {
+	background-position: -2px -32px;
+} 
+
+.twitter {
+	background-position: -38px -2px;
+	width: 28px;
+	height: 28px;
+    display: block;
+}
+
+.twitter:hover {
+	background-position: -38px -32px;
+}  
+
+.uTube {
+	background-position: -74px -2px;
+	width: 28px;
+	height: 28px;
+    display: block;
+}
+
+.uTube:hover {
+	background-position: -74px -32px;
+}  
+
+.pinit {
+	background-position: -109px -2px;
+	width: 28px;
+	height: 28px;
+    display: block;
+}
+
+.pinit:hover {
+	background-position: -109px -32px;
+}    
+
+
+/*** Table Classes ***/
+
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+.table {
+	width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.table tbody tr td, 
+.table tbody tr th, 
+.table tfoot tr td, 
+.table tfoot tr th, 
+.table thead tr td, 
+.table thead tr th {
+    padding: 12px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    color: #888888;
+}
+
+.table thead tr th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+
+/*** Table SubHead **/
+
+.table .table-sub-head {
+    background: #fafafa !important;
+}
+
+.table .table-sub-head th {
+    padding: 2px 12px;
+    font-size: 10px;
+    color: #8492A2;
+}
+
+.table .table-sub-head1 {
+    padding: 3px 12px;
+    font-size: 13px;
+}
+
+
+
+
+/*** Table Bordered ***/
+
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+.table-bordered thead tr td, 
+.table-bordered thead tr th {
+    border-bottom-width: 2px;
+}
+
+.table-bordered tbody tr td, 
+.table-bordered tbody tr th, 
+.table-bordered tfoot tr td, 
+.table-bordered tfoot tr th, 
+.table-bordered thead tr td, 
+.table-bordered thead tr th {
+    border: 1px solid #ddd;
+}
+
+
+/*** Table Hover ***/
+
+.table-hovert body tr:hover {
+    background-color: #f5f5f5;
+}
+
+
+/*** Table Odd Even ***/
+.table-odd-even tr:nth-child(even) {
+    background: #F8FDFF;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(220,220,220); /* Fallback color */
+    background-color: rgba(220,220,220,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fff;
+    margin: 6% auto; /* 15% from the top and centered */
+    padding: 30px;
+    width: 50%; /* Could be more or less, depending on screen size */
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.20);
+    box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.20);
+    color: #999999;
+}
+
+.modal-content .heading {
+    color: #2D6FB7;
+    margin: 0 0 25px 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.modal-content p {
+    line-height: 22px;
+}
+
+.modal-content .subheading {
+    color: #F37677;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+
+/* The Close Button */
+.modal-content .close {
+    color: #F37677;
+    float: right;
+    font-size: 35px;
+    margin: -12px;
+}
+
+.modal-content .close:hover,
+.modal-content .close:focus {
+    color: #F37677;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+

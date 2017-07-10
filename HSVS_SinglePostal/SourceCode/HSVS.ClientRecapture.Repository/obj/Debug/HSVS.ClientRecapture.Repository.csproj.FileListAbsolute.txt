@@ -1,0 +1,12 @@
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.API\bin\HSVS.ClientRecapture.Repository.dll.config
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.API\bin\HSVS.ClientRecapture.Repository.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.API\bin\HSVS.ClientRecapture.Repository.pdb
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.Repository\obj\Debug\HSVS.ClientRecapture.Repository.csprojResolveAssemblyReference.cache
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.Repository\obj\Debug\HSVS.ClientRecapture.Repository.dll
+D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.Repository\obj\Debug\HSVS.ClientRecapture.Repository.pdb
+E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.API\bin\HSVS.ClientRecapture.Repository.dll.config
+E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.API\bin\HSVS.ClientRecapture.Repository.dll
+E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.API\bin\HSVS.ClientRecapture.Repository.pdb
+E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.Repository\obj\Debug\HSVS.ClientRecapture.Repository.csprojResolveAssemblyReference.cache
+E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.Repository\obj\Debug\HSVS.ClientRecapture.Repository.dll
+E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.Repository\obj\Debug\HSVS.ClientRecapture.Repository.pdb

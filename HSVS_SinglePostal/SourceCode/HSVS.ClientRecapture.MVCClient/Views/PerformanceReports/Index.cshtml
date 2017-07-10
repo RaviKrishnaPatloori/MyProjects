@@ -1,0 +1,745 @@
+﻿@model HSVS.SinglePostal.WebApp.ViewModels.PerformanceReportsViewModel
+@{
+    ViewBag.Title = "PerformanceReports";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<!-- <svg viewBox="0 0 100 100" class="icon shape-codepen">
+            <use xlink:href="#shape-codepen"></use>
+          </svg> -->
+<!-- <figure class="icon shape-codepen">
+        <use xlink:href="css/sprite.svg#shape-codepen"></use>
+    </figure> -->
+<div class="page-content">
+
+    <!-- Breadcrumb -->
+    <ul class="list-inline breadcrumb">
+        <li>
+            <div class="heading">
+                <span class="icon-recapture"></span>
+                <b>CLIENT</b> <span class="letter-space">RECAPTURE</span>
+            </div>
+        </li>
+        <li class="text-red"><span class="icon-arrow-right"></span></li>
+        <li>Performance Report</li>
+    </ul>
+    <!-- TABS HORIZANTAL -->
+    <div class="tabs-horizontal performance-tabs">
+        <ul class="tab-horizontal-links">
+            <li class="active">
+                <a href="#overview" data-target="overview">OVERVIEW</a>
+            </li>
+            <li>
+                <a href="#report" data-target="report">COMPLIANCE DETAIL REPORT</a>
+            </li>
+        </ul>
+        <div class="tab-horizontal-content">
+            <div id="overview" class="horizontal-tab tab active" data-tab="overview">
+                <div class="header">
+                    <div class="row">
+                        <div class="col-10 padding-muted">
+                            <h1>CLIENT RECAPTURE PERFORMANCE</h1>
+                        </div>
+                        <div class="col-2 padding-muted text-right">
+                            <div class="nav">
+                                <ul class="list-inline margin-muted icons">
+                                    <li>
+                                        <a href="javascript:void()">
+                                            <span class="icon-download"></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void()">
+                                            <span class="icon-print"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="report-chart">
+                    <div class="row">
+                        <div class="col-7">
+                            <ul class="list-unstyled clearfix">
+                                <li class="pull-left text-center">
+                                    <img src="~/Content/images/overview-report.jpg">
+                                </li>
+                                <li class="pull-left">
+                                    <ul class="list-unstyled customer-details clearfix">
+                                        <li>
+                                            <h4>230</h4>
+                                            <label>Targetted Customer</label>
+                                        </li>
+                                        <li>
+                                            <h4 class="text-green"><b>23</b></h4>
+                                            <label>Returned Customer</label>
+                                        </li>
+                                        <li>
+                                            <h4>207</h4>
+                                            <label>No Visit</label>
+                                        </li>
+                                        <li>
+                                            <h4 class="text-blue">$6,280</h4>
+                                            <label>Total Revenue Generated</label>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-5">
+                            <ul class="list-inline date-field">
+                                <li>
+                                    <label>From</label>
+                                    <input type="text" name="calendar" class="text-field date-picker">
+                                    <span class="field-icon-pos icon-calendar"></span>
+                                </li>
+                                <li class="pull-right">
+                                    <label>To</label>
+                                    <input type="text" name="calendar" class="text-field date-picker">
+                                    <span class="field-icon-pos icon-calendar"></span>
+                                </li>
+
+                            </ul>
+                            <table class="table overview-table">
+                                <thead>
+                                    <tr>
+                                        <th>Month</th>
+                                        <th>Returned</th>
+                                        <th>Revenue <br>Generated</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Jan '17</td>
+                                        <td>2</td>
+                                        <td>$600</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Feb '17</td>
+                                        <td>3</td>
+                                        <td>$400</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mar '17</td>
+                                        <td>14</td>
+                                        <td>$1600</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Apr '17</td>
+                                        <td>10</td>
+                                        <td>$1200</td>
+                                    </tr>
+                                    <tr>
+                                        <td>May '17</td>
+                                        <td>12</td>
+                                        <td>$1500</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jun '17</td>
+                                        <td>8</td>
+                                        <td>$980</td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="report" class="horizontal-tab tab" data-tab="report">               
+                <div class="field-sec">
+                    <ul class="list-inline margin-muted date-field">
+                        <li class="margin-right-20">
+                            <label>From</label>
+                            <input type="text" name="calendar" class="text-field date-picker">
+                            <span class="field-icon-pos icon-calendar"></span>
+                        </li>
+                        <li>
+                            <label>To</label>
+                            <input type="text" name="calendar" class="text-field date-picker">
+                            <span class="field-icon-pos icon-calendar"></span>
+                        </li>
+                        <li class="search-client">
+                            <label>Search A Client</label>
+                            <input type="text" name="calendar" class="text-field" placeholder="Enter Client ID / First, Last Names / Pet Name">
+                        </li>
+                        <li class="icons">
+                            <a href="javascript:void()">
+                                <span class="icon-download"></span>
+                            </a>
+                            <a href="javascript:void()">
+                                <span class="icon-print"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <table class="table table-bordered table-odd-even details-report-table">
+                            <thead>
+                                <tr>
+                                    <th>Client ID</th>
+                                    <th>Last Name</th>
+                                    <th>First Name</th>
+                                    <th>Patient Name</th>
+                                    <th>Visit Date</th>
+                                    <th>Contacted Date</th>
+                                    <th>Contacted Via</th>
+                                    <th>Services</th>
+                                    <th>Amount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>#124478</td>
+                                    <td>Washington</td>
+                                    <td>Christina</td>
+                                    <td>Skye</td>
+                                    <td>07/18/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td class="tooltip-contact">
+                                        <span class="icon icon-postcard text-pink"></span>
+                                        <span class="icon icon-postcard text-pink"></span>
+                                        <span class="icon icon-mail text-red"></span>
+                                        <span class="icon icon-mail text-green"></span>
+                                        <span class="icon icon-postcard text-disabled">
+                                            <div class="tooltip">
+                                                <ul class="list-unstyled margin-muted">
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Card 1
+                                                        <span class="pull-right">02/23/2017</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Card 2
+                                                        <span class="pull-right">03/23/2017</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Email 1
+                                                        <span class="pull-right">02/23/2017</span>
+                                                    </li>
+                                                    <li class="text-green">
+                                                        <span class="icon icon-postcard"></span>Email 2
+                                                        <span class="pull-right">20/23/2017</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </span>
+                                    </td>
+                                    <td class="tooltip-services">
+                                        10 Services
+                                        <span class="icon more-icon">
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <div class="tooltip">
+                                                <ul class="list-unstyled margin-muted">
+                                                    <li>
+                                                        <label>Medical Waste</label>
+                                                        <span class="pull-right text-right">$3.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>Distember Vaccine w/ Lepto</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>1 Vaccine Lorum Ipsum</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>1 Dolar Sit Amet Service</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            3 A long paragraph of text
+                                                            broken in to multiple lines
+                                                        </label>
+                                                        <span class="pull-right text-right text-blue">(-) $55.00</span>
+                                                    </li>
+                                                    <li class="text-pink total">
+                                                        Total
+                                                        <span class="pull-right text-right">$214.00</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </span>
+                                    </td>
+                                    <td>$215.00</td>
+                                </tr>
+                                <tr>
+                                    <td>#124478</td>
+                                    <td>Washington</td>
+                                    <td>Christina</td>
+                                    <td>Skye</td>
+                                    <td>07/18/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td class="tooltip-contact">
+                                        <span class="icon icon-postcard text-pink"></span>
+                                        <span class="icon icon-postcard text-pink"></span>
+                                        <span class="icon icon-mail text-red"></span>
+                                        <span class="icon icon-mail text-green"></span>
+                                        <span class="icon icon-postcard text-disabled">
+                                            <div class="tooltip">
+                                                <ul class="list-unstyled margin-muted">
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Card 1
+                                                        <span class="pull-right">02/23/2017</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Card 2
+                                                        <span class="pull-right">03/23/2017</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Email 1
+                                                        <span class="pull-right">02/23/2017</span>
+                                                    </li>
+                                                    <li class="text-green">
+                                                        <span class="icon icon-postcard"></span>Email 2
+                                                        <span class="pull-right">20/23/2017</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </span>
+                                    </td>
+                                    <td class="tooltip-services">
+                                        10 Services
+                                        <span class="icon more-icon">
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <div class="tooltip">
+                                                <ul class="list-unstyled margin-muted">
+                                                    <li>
+                                                        <label>Medical Waste</label>
+                                                        <span class="pull-right text-right">$3.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>Distember Vaccine w/ Lepto</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>1 Vaccine Lorum Ipsum</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>1 Dolar Sit Amet Service</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            3 A long paragraph of text
+                                                            broken in to multiple lines
+                                                        </label>
+                                                        <span class="pull-right text-right text-blue">(-) $55.00</span>
+                                                    </li>
+                                                    <li class="text-pink total">
+                                                        Total
+                                                        <span class="pull-right text-right">$214.00</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </span>
+                                    </td>
+                                    <td>$215.00</td>
+                                </tr>
+                                <tr>
+                                    <td>#124478</td>
+                                    <td>Washington</td>
+                                    <td>Christina</td>
+                                    <td>Skye</td>
+                                    <td>07/18/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td class="tooltip-contact">
+                                        <span class="icon icon-postcard text-pink"></span>
+                                        <span class="icon icon-postcard text-pink"></span>
+                                        <span class="icon icon-mail text-red"></span>
+                                        <span class="icon icon-mail text-green"></span>
+                                        <span class="icon icon-postcard text-disabled">
+                                            <div class="tooltip">
+                                                <ul class="list-unstyled margin-muted">
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Card 1
+                                                        <span class="pull-right">02/23/2017</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Card 2
+                                                        <span class="pull-right">03/23/2017</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Email 1
+                                                        <span class="pull-right">02/23/2017</span>
+                                                    </li>
+                                                    <li class="text-green">
+                                                        <span class="icon icon-postcard"></span>Email 2
+                                                        <span class="pull-right">20/23/2017</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </span>
+                                    </td>
+                                    <td class="tooltip-services">
+                                        10 Services
+                                        <span class="icon more-icon">
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <div class="tooltip">
+                                                <ul class="list-unstyled margin-muted">
+                                                    <li>
+                                                        <label>Medical Waste</label>
+                                                        <span class="pull-right text-right">$3.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>Distember Vaccine w/ Lepto</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>1 Vaccine Lorum Ipsum</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>1 Dolar Sit Amet Service</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            3 A long paragraph of text
+                                                            broken in to multiple lines
+                                                        </label>
+                                                        <span class="pull-right text-right text-blue">(-) $55.00</span>
+                                                    </li>
+                                                    <li class="text-pink total">
+                                                        Total
+                                                        <span class="pull-right text-right">$214.00</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </span>
+                                    </td>
+                                    <td>$215.00</td>
+                                </tr>
+                                <tr>
+                                    <td>#124478</td>
+                                    <td>Washington</td>
+                                    <td>Christina</td>
+                                    <td>Skye</td>
+                                    <td>07/18/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td class="tooltip-contact">
+                                        <span class="icon icon-postcard text-pink"></span>
+                                        <span class="icon icon-postcard text-pink"></span>
+                                        <span class="icon icon-mail text-red"></span>
+                                        <span class="icon icon-mail text-green"></span>
+                                        <span class="icon icon-postcard text-disabled">
+                                            <div class="tooltip">
+                                                <ul class="list-unstyled margin-muted">
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Card 1
+                                                        <span class="pull-right">02/23/2017</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Card 2
+                                                        <span class="pull-right">03/23/2017</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Email 1
+                                                        <span class="pull-right">02/23/2017</span>
+                                                    </li>
+                                                    <li class="text-green">
+                                                        <span class="icon icon-postcard"></span>Email 2
+                                                        <span class="pull-right">20/23/2017</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </span>
+                                    </td>
+                                    <td class="tooltip-services">
+                                        10 Services
+                                        <span class="icon more-icon">
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <div class="tooltip">
+                                                <ul class="list-unstyled margin-muted">
+                                                    <li>
+                                                        <label>Medical Waste</label>
+                                                        <span class="pull-right text-right">$3.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>Distember Vaccine w/ Lepto</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>1 Vaccine Lorum Ipsum</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>1 Dolar Sit Amet Service</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            3 A long paragraph of text
+                                                            broken in to multiple lines
+                                                        </label>
+                                                        <span class="pull-right text-right text-blue">(-) $55.00</span>
+                                                    </li>
+                                                    <li class="text-pink total">
+                                                        Total
+                                                        <span class="pull-right text-right">$214.00</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </span>
+                                    </td>
+                                    <td>$215.00</td>
+                                </tr>
+                                <tr>
+                                    <td>#124478</td>
+                                    <td>Washington</td>
+                                    <td>Christina</td>
+                                    <td>Skye</td>
+                                    <td>07/18/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td class="tooltip-contact">
+                                        <span class="icon icon-postcard text-pink"></span>
+                                        <span class="icon icon-postcard text-pink"></span>
+                                        <span class="icon icon-mail text-red"></span>
+                                        <span class="icon icon-mail text-green"></span>
+                                        <span class="icon icon-postcard text-disabled">
+                                            <div class="tooltip">
+                                                <ul class="list-unstyled margin-muted">
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Card 1
+                                                        <span class="pull-right">02/23/2017</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Card 2
+                                                        <span class="pull-right">03/23/2017</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Email 1
+                                                        <span class="pull-right">02/23/2017</span>
+                                                    </li>
+                                                    <li class="text-green">
+                                                        <span class="icon icon-postcard"></span>Email 2
+                                                        <span class="pull-right">20/23/2017</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </span>
+                                    </td>
+                                    <td class="tooltip-services">
+                                        10 Services
+                                        <span class="icon more-icon">
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <div class="tooltip">
+                                                <ul class="list-unstyled margin-muted">
+                                                    <li>
+                                                        <label>Medical Waste</label>
+                                                        <span class="pull-right text-right">$3.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>Distember Vaccine w/ Lepto</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>1 Vaccine Lorum Ipsum</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>1 Dolar Sit Amet Service</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            3 A long paragraph of text
+                                                            broken in to multiple lines
+                                                        </label>
+                                                        <span class="pull-right text-right text-blue">(-) $55.00</span>
+                                                    </li>
+                                                    <li class="text-pink total">
+                                                        Total
+                                                        <span class="pull-right text-right">$214.00</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </span>
+                                    </td>
+                                    <td>$215.00</td>
+                                </tr>
+                                <tr>
+                                    <td>#124478</td>
+                                    <td>Washington</td>
+                                    <td>Christina</td>
+                                    <td>Skye</td>
+                                    <td>07/18/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td class="tooltip-contact">
+                                        <span class="icon icon-postcard text-pink"></span>
+                                        <span class="icon icon-postcard text-pink"></span>
+                                        <span class="icon icon-mail text-red"></span>
+                                        <span class="icon icon-mail text-green"></span>
+                                        <span class="icon icon-postcard text-disabled">
+                                            <div class="tooltip">
+                                                <ul class="list-unstyled margin-muted">
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Card 1
+                                                        <span class="pull-right">02/23/2017</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Card 2
+                                                        <span class="pull-right">03/23/2017</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Email 1
+                                                        <span class="pull-right">02/23/2017</span>
+                                                    </li>
+                                                    <li class="text-green">
+                                                        <span class="icon icon-postcard"></span>Email 2
+                                                        <span class="pull-right">20/23/2017</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </span>
+                                    </td>
+                                    <td class="tooltip-services">
+                                        10 Services
+                                        <span class="icon more-icon">
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <div class="tooltip">
+                                                <ul class="list-unstyled margin-muted">
+                                                    <li>
+                                                        <label>Medical Waste</label>
+                                                        <span class="pull-right text-right">$3.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>Distember Vaccine w/ Lepto</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>1 Vaccine Lorum Ipsum</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>1 Dolar Sit Amet Service</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            3 A long paragraph of text
+                                                            broken in to multiple lines
+                                                        </label>
+                                                        <span class="pull-right text-right text-blue">(-) $55.00</span>
+                                                    </li>
+                                                    <li class="text-pink total">
+                                                        Total
+                                                        <span class="pull-right text-right">$214.00</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </span>
+                                    </td>
+                                    <td>$215.00</td>
+                                </tr>
+                                <tr>
+                                    <td>#124478</td>
+                                    <td>Washington</td>
+                                    <td>Christina</td>
+                                    <td>Skye</td>
+                                    <td>07/18/2017</td>
+                                    <td>07/02/2017</td>
+                                    <td class="tooltip-contact">
+                                        <span class="icon icon-postcard text-pink"></span>
+                                        <span class="icon icon-postcard text-pink"></span>
+                                        <span class="icon icon-mail text-red"></span>
+                                        <span class="icon icon-mail text-green"></span>
+                                        <span class="icon icon-postcard text-disabled">
+                                            <div class="tooltip">
+                                                <ul class="list-unstyled margin-muted">
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Card 1
+                                                        <span class="pull-right">02/23/2017</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Card 2
+                                                        <span class="pull-right">03/23/2017</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="icon icon-postcard"></span>Email 1
+                                                        <span class="pull-right">02/23/2017</span>
+                                                    </li>
+                                                    <li class="text-green">
+                                                        <span class="icon icon-postcard"></span>Email 2
+                                                        <span class="pull-right">20/23/2017</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </span>
+                                    </td>
+                                    <td class="tooltip-services">
+                                        10 Services
+                                        <span class="icon more-icon">
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <span class="dot"></span>
+                                            <div class="tooltip">
+                                                <ul class="list-unstyled margin-muted">
+                                                    <li>
+                                                        <label>Medical Waste</label>
+                                                        <span class="pull-right text-right">$3.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>Distember Vaccine w/ Lepto</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>1 Vaccine Lorum Ipsum</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>1 Dolar Sit Amet Service</label>
+                                                        <span class="pull-right text-right">$55.00</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            3 A long paragraph of text
+                                                            broken in to multiple lines
+                                                        </label>
+                                                        <span class="pull-right text-right text-blue">(-) $55.00</span>
+                                                    </li>
+                                                    <li class="text-pink total">
+                                                        Total
+                                                        <span class="pull-right text-right">$214.00</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </span>
+                                    </td>
+                                    <td>$215.00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button section -->
+    <div class="btn-section clearfix">
+        <a href="javascript:void()" class="btn btn-blue-link pull-left">
+            <span class="icon-download"></span>
+            Download Report
+        </a>
+        <a href="javascript:void()" class="btn btn-blue-link pull-right">
+            <span class="icon-print"></span>
+            Print Report
+        </a>
+    </div>
+
+</div>

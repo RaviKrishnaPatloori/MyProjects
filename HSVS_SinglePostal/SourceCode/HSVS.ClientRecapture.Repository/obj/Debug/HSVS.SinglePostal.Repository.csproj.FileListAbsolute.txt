@@ -1,0 +1,6 @@
+E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.Repository\obj\Debug\HSVS.SinglePostal.Repository.csprojResolveAssemblyReference.cache
+E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.API\bin\HSVS.SinglePostal.Repository.dll.config
+E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.API\bin\HSVS.SinglePostal.Repository.dll
+E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.API\bin\HSVS.SinglePostal.Repository.pdb
+E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.Repository\obj\Debug\HSVS.SinglePostal.Repository.dll
+E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.Repository\obj\Debug\HSVS.SinglePostal.Repository.pdb
