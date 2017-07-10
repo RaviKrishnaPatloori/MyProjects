@@ -1,4 +1,0 @@
-E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.Constants\bin\Debug\HSVS.SinglePostal.Utilities.dll
-E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.Constants\bin\Debug\HSVS.SinglePostal.Utilities.pdb
-E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.Constants\obj\Debug\HSVS.SinglePostal.Utilities.dll
-E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.Constants\obj\Debug\HSVS.SinglePostal.Utilities.pdb

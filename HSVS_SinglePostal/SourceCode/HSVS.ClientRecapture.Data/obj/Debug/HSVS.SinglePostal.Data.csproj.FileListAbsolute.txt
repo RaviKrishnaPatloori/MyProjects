@@ -1,5 +1,0 @@
-E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.Data\obj\Debug\HSVS.SinglePostal.Data.csprojResolveAssemblyReference.cache
-E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.Data\bin\Debug\HSVS.SinglePostal.Data.dll
-E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.Data\bin\Debug\HSVS.SinglePostal.Data.pdb
-E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.Data\obj\Debug\HSVS.SinglePostal.Data.dll
-E:\SourceTree\MyProjects\HSVSSinglePostal\HSVS.ClientRecapture.Data\obj\Debug\HSVS.SinglePostal.Data.pdb

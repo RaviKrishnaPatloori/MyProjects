@@ -1,9 +1,0 @@
-D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.Data\bin\Debug\HSVS.ClientRecapture.Data.dll
-D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.Data\bin\Debug\HSVS.ClientRecapture.Data.pdb
-D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.Data\obj\Debug\HSVS.ClientRecapture.Data.dll
-D:\AccionLabs\ClientRecaptureIntegration\Source\Application\ClientRecapture\HSVS.ClientRecapture.Data\obj\Debug\HSVS.ClientRecapture.Data.pdb
-E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.Data\bin\Debug\HSVS.ClientRecapture.Data.dll
-E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.Data\bin\Debug\HSVS.ClientRecapture.Data.pdb
-E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.Data\obj\Debug\HSVS.ClientRecapture.Data.csprojResolveAssemblyReference.cache
-E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.Data\obj\Debug\HSVS.ClientRecapture.Data.dll
-E:\My Projects\SampleProjects\MVCSampleProject\HSVS.ClientRecapture.Data\obj\Debug\HSVS.ClientRecapture.Data.pdb
